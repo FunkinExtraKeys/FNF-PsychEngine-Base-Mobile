@@ -135,7 +135,7 @@ jobs:
 
       - name: Compile (Android)
         if: startsWith(matrix.os, 'ubuntu')
-        run: haxelib run lime build android -D officialBuild
+        run: haxelib run lime build android -32 -D officialBuild
 
       - name: Compile (iOS)
         if: startsWith(matrix.os, 'macos')
