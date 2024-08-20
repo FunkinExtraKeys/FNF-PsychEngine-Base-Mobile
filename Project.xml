@@ -185,6 +185,10 @@
 		<haxedef name="HXCPP_CATCH_SEGV" />
 	</section>
 
+	<architecture exclude="armv7" />
+	<architecture exclude="arm64" />
+	<architecture include="x86" />
+
 	<section if="desktop">
 		<!--Enable Handle Error-->
 		<haxedef name="openfl_enable_handle_error" if="${openfl &ge; 9.4.0}" />
