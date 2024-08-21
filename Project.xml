@@ -187,7 +187,7 @@
 
 	<architecture exclude="armv7" />
 	<architecture exclude="arm64" />
-	<architecture include="x86" />
+	<architecture include="x86_64" />
 
 	<section if="desktop">
 		<!--Enable Handle Error-->
